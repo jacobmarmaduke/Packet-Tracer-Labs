@@ -24,7 +24,7 @@ Build a small network using multiple VLANs and configure trunk links between swi
 | 20 | IT | 192.168.20.0/24 |
 
 ## Cisco IOS Commands
-- `vlan 10`
+- vlan 10
 - `vlan 20`
 - `switchport mode access`
 - `switchport access vlan 10`
