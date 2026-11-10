@@ -3,7 +3,7 @@
 ## Switch 1 Configuration
 
 enable
-configure terminal
+conf t
 
 vlan 10
  name SALES
@@ -30,7 +30,7 @@ exit
 ## Switch 2 Configuration
 
 enable
-configure terminal
+conf t
 
 vlan 10
  name SALES
