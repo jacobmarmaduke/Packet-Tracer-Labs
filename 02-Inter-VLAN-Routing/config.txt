@@ -3,7 +3,7 @@
 ## Switch 1 Configuration
 
 enable
-configure terminal
+conf t
 
 vlan 10
  name SALES
@@ -21,10 +21,32 @@ exit
 
 int range fa0/3-fa0/4
   switchport mode access
-  swithcport access vlan 20
+  switchport access vlan 20
 exit
 
 int g0/1
-  swithcport mode trunk
+  switchport mode trunk
+exit
+
+
+## Router 1 Configuration
+
+enable
+conf t
+
+int g0/0
+ no shutdown
+exit
+
+int g0/0.10
+ encapsulation dot1q 10
+ ip address 192.168.10.1 255.255.255.0
+ no shutdown
+exit
+
+int g0/0.20
+ encapsulation dot1q 20
+ ip address 192.168.20.1 255.255.255.0
+ no shutdown
 exit
 
