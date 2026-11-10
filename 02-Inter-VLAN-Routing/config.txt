@@ -50,3 +50,11 @@ int g0/0.20
  no shutdown
 exit
 
+
+## Verification Commands
+
+show vlan brief
+show interfaces trunk
+show interfaces status
+show ip interface brief
+show running-config
