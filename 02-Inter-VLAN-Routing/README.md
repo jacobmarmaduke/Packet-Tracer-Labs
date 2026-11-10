@@ -5,7 +5,7 @@ Configure router-on-a-stick to allow communication between two separate VLANs us
 
 ## Network Equipment
 - 1 Cisco 1941 Router
-- 2 Cisco 2960 Switches
+- 1 Cisco 2960 Switches
 - 4 PCs
 
 ## Skills Demonstrated
