@@ -18,10 +18,10 @@ Build a small network using multiple VLANs and configure trunk links between swi
 
 ## VLAN Configuration
 
-| VLAN | Name | Network |
-|---|---|---|
-| 10 | SALES | 192.168.10.0/24 |
-| 20 | IT | 192.168.20.0/24 |
+| VLAN |   Network |
+|---|---|
+| 10  | 192.168.10.0/24 |
+| 20  | 192.168.20.0/24 |
 
 ## Cisco IOS Commands
 - `vlan 10`
