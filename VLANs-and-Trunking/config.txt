@@ -6,11 +6,9 @@ en
 conf t
 
 vlan 10
- name SALES
 exit
 
 vlan 20
- name IT
 exit
 
 interface fa0/1
@@ -33,11 +31,9 @@ en
 conf t
 
 vlan 10
- name SALES
 exit
 
 vlan 20
- name IT
 exit
 
 interface fa0/1
