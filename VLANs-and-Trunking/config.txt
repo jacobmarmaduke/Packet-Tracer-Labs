@@ -1,0 +1,62 @@
+# Cisco Packet Tracer – VLANs and Trunking Configuration
+
+## Switch 1 Configuration
+
+enable
+conf t
+
+vlan 10
+ name SALES
+exit
+
+vlan 20
+ name IT
+exit
+
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10
+exit
+
+interface fa0/2
+ switchport mode access
+ switchport access vlan 20
+exit
+
+interface fa0/24
+ switchport mode trunk
+exit
+
+## Switch 2 Configuration
+
+enable
+conf t
+
+vlan 10
+ name SALES
+exit
+
+vlan 20
+ name IT
+exit
+
+interface fa0/1
+ switchport mode access
+ switchport access vlan 10
+exit
+
+interface fa0/2
+ switchport mode access
+ switchport access vlan 20
+exit
+
+interface fa0/24
+ switchport mode trunk
+exit
+
+## Verification Commands
+
+show vlan brief
+show interfaces trunk
+show interfaces status
+
