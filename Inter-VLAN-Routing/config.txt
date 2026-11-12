@@ -1,4 +1,4 @@
-# Cisco Packet Tracer – VLANs and Trunking Configuration
+# Cisco Packet Tracer – Inter-Vlan Routing Configuration
 
 ## Switch 1 Configuration
 
