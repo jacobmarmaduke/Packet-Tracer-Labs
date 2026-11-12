@@ -1,6 +1,6 @@
 # Cisco Packet Tracer – Static Routing Configuration
 
-##Router 1 Configuration
+## Router 1 Configuration
 
 en
 conf t
@@ -16,12 +16,12 @@ int g0/0
 exit
 
 
-#Static Route to LAN 2
+! Static Route to LAN 2
 ip route 192.168.20.0 255.255.255.0 10.0.0.2
 exit
 
 
-##Router 2 Configuration
+## Router 2 Configuration
 
 en
 conf t
@@ -36,13 +36,13 @@ int g0/0
   no shutdown
 exit
 
-#Static Route to LAN 1
+! Static Route to LAN 1
 ip route 192.168.10.0 255.255.255.0 10.0.0.1
 exit
 
 
 
-##Verification Commands
+## Verification Commands
 
 show ip interface brief
 show ip route
